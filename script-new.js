@@ -12,11 +12,12 @@ if (averageA < 100 && averageOG < 100) {
     console.log("Neither team won");
 
 } else {
+    
     if (averageOG === averageA) {                 // If equal, Tie 
-        console.log("It's a tie")
+        console.log("It's a tie");
     } else if (averageOG > averageA) {
-        console.log("Team OG won!")
+        console.log("Team OG won!");
     } else {
-        console.log("Team Alliance won!")
+        console.log("Team Alliance won!");
     }
 }
